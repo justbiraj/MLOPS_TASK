@@ -112,3 +112,9 @@ License
 
 Contact
 - For questions, link issues in the repository or contact the maintainer.
+
+# Mlflow run
+<img src="mlflowrun.png">
+
+# Fast API
+<img src="fastapi_result.png">
