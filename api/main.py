@@ -29,9 +29,9 @@ try:
     latest_run_id = get_latest_run_id()
     model_uri = f"runs:/{latest_run_id}/model"
     model = mlflow.sklearn.load_model(model_uri)
-    print(f"✅ Loaded model from MLflow Run ID: {latest_run_id}")
+    print(f"Loaded model from MLflow Run ID: {latest_run_id}")
 except Exception as e:
-    print(f"⚠️ Could not load model: {e}")
+    print(f"Could not load model: {e}")
     model = None
 
 
